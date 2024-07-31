@@ -1,0 +1,1823 @@
+yarn run v1.22.22
+warning package.json: "test" is also the name of a node core module
+warning ../package.json: No license field
+$ vite
+
+  VITE v5.2.13  ready in 295 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.148.0.2:5173/
+10:08:13 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:08:59 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:09:17 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:10:07 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:10:12 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:10:24 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:10:36 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:10:52 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:11:31 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:11:40 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:11:48 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:14:11 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:14:23 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:14:23 AM [vite] Internal server error: /home/truc/test/src/pages/Home.jsx: Unterminated JSX contents. (865:10)
+
+  863 |         </div>
+  864 |       </div>
+> 865 |     </div>
+      |           ^
+  866 |   );
+  867 | }
+  868 |
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Home.jsx:865:10
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.jsxReadToken (/home/truc/test/node_modules/@babel/parser/lib/index.js:6465:20)
+      at JSXParserMixin.getTokenFromCode (/home/truc/test/node_modules/@babel/parser/lib/index.js:6791:12)
+      at JSXParserMixin.nextToken (/home/truc/test/node_modules/@babel/parser/lib/index.js:2416:10)
+      at JSXParserMixin.next (/home/truc/test/node_modules/@babel/parser/lib/index.js:2329:10)
+      at JSXParserMixin.eat (/home/truc/test/node_modules/@babel/parser/lib/index.js:2333:12)
+      at JSXParserMixin.expect (/home/truc/test/node_modules/@babel/parser/lib/index.js:3557:10)
+      at JSXParserMixin.jsxParseClosingElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6697:10)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6712:37)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6715:32)
+      at JSXParserMixin.jsxParseElement (/home/truc/test/node_modules/@babel/parser/lib/index.js:6766:17)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6776:19)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11177:28)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseReturnStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12603:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12254:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@b
+... and 5 lines more
+10:14:28 AM [vite] Pre-transform error: /home/truc/test/src/pages/Home.jsx: Unterminated JSX contents. (865:10)
+
+  863 |         </div>
+  864 |       </div>
+> 865 |     </div>
+      |           ^
+  866 |   );
+  867 | }
+  868 |
+10:14:28 AM [vite] Internal server error: /home/truc/test/src/pages/Home.jsx: Unterminated JSX contents. (865:10)
+
+  863 |         </div>
+  864 |       </div>
+> 865 |     </div>
+      |           ^
+  866 |   );
+  867 | }
+  868 |
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Home.jsx:865:10
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.jsxReadToken (/home/truc/test/node_modules/@babel/parser/lib/index.js:6465:20)
+      at JSXParserMixin.getTokenFromCode (/home/truc/test/node_modules/@babel/parser/lib/index.js:6791:12)
+      at JSXParserMixin.nextToken (/home/truc/test/node_modules/@babel/parser/lib/index.js:2416:10)
+      at JSXParserMixin.next (/home/truc/test/node_modules/@babel/parser/lib/index.js:2329:10)
+      at JSXParserMixin.eat (/home/truc/test/node_modules/@babel/parser/lib/index.js:2333:12)
+      at JSXParserMixin.expect (/home/truc/test/node_modules/@babel/parser/lib/index.js:3557:10)
+      at JSXParserMixin.jsxParseClosingElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6697:10)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6712:37)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6715:32)
+      at JSXParserMixin.jsxParseElement (/home/truc/test/node_modules/@babel/parser/lib/index.js:6766:17)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6776:19)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11177:28)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseReturnStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12603:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12254:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@b
+... and 5 lines more
+10:14:40 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:14:48 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:15:36 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:18:22 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:19:37 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:20:17 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:21:55 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:23:02 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:23:36 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:25:43 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:26:02 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:27:26 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:27:33 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:27:53 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:28:00 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:28:06 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:28:12 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:28:13 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:28:55 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:29:02 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:29:20 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:29:31 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:29:40 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:29:43 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:29:55 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:30:31 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:34:44 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:35:36 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:46:04 AM [vite] page reload src/draft.jsx
+10:47:15 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:49:29 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:50:30 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:50:52 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:51:38 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:51:42 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:56:56 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:57:02 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:57:54 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:58:00 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:00:49 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:01:25 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:02:56 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:03:30 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:04:13 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:05:49 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:06:26 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:07:04 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:07:09 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:08:23 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:08:32 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:08:47 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:08:56 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:09:24 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:12:10 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:14:57 AM [vite] page reload src/main.jsx
+11:15:43 AM [vite] page reload src/main.jsx
+11:17:33 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+11:17:46 AM [vite] hmr update /src/PrivateRoute.jsx, /src/index.css
+11:21:25 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:21:55 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:23:47 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:23:55 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:24:09 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:24:09 AM [vite] Internal server error: /home/truc/test/src/pages/Home.jsx: Missing semicolon. (93:13)
+
+  91 |     const interval = setInterval(() => {
+  92 |       setCurrentTime(new Date().toLocaleTimeString());
+> 93 |       count++''
+     |              ^
+  94 |     }, 1000);
+  95 |     const ciupezoi = setInterval(() => {
+  96 |       loadData();
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Home.jsx:93:13
+  95 |      const ciupezoi = setInterval(() => {
+  96 |        loadData();
+  97 |      }, GetDataTime);
+     |                  ^
+  98 |    }, []);
+  99 |  
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.semicolon (/home/truc/test/node_modules/@babel/parser/lib/index.js:3554:10)
+      at JSXParserMixin.parseExpressionStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12749:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12360:19)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseExprListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:11680:18)
+      at JSXParserMixin.parseCallExpressionArguments (/home/truc/test/node_modules/@babel/parser/lib/index.js:10754:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/truc/test/node_modules/@babel/parser/lib/index.js:10671:29)
+      at JSXParserMixin.parseSubscript (/home/truc/test/node_modules/@babel/parser/lib/index.js:10608:19)
+      at JSXParserMixin.parseSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10581:19)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10572:17)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement 
+... and 8 lines more
+11:24:10 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:24:11 AM [vite] warning: This assignment will throw because "count" is a constant
+91 |      const interval = setInterval(() => {
+92 |        setCurrentTime(new Date().toLocaleTimeString());
+93 |        count++;
+   |        ^
+94 |      }, 1000);
+95 |      const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:24:55 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:24:55 AM [vite] Internal server error: /home/truc/test/src/pages/Home.jsx: Unexpected token (95:29)
+
+  93 |       count++;
+  94 |     }, 1000);
+> 95 |    if (count === GetDataTime):
+     |                              ^
+  96 |     const ciupezoi = setInterval(() => {
+  97 |       loadData();
+  98 |     }, GetDataTime);
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Home.jsx:95:29
+  99 |    }, []);
+  100|  
+  101|    const chartData = (lineColor, data_to_draw) => {
+     |   ^
+  102|      const labels = recentData.map((item) => item.time);
+  103|      const data = recentData.map((item) => item[data_to_draw]);
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.unexpected (/home/truc/test/node_modules/@babel/parser/lib/index.js:3253:16)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10952:16)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12356:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:
+... and 9 lines more
+11:24:57 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:24:57 AM [vite] Internal server error: /home/truc/test/src/pages/Home.jsx: Unexpected token (95:28)
+
+  93 |       count++;
+  94 |     }, 1000);
+> 95 |    if (count == GetDataTime):
+     |                             ^
+  96 |     const ciupezoi = setInterval(() => {
+  97 |       loadData();
+  98 |     }, GetDataTime);
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Home.jsx:95:28
+  99 |    }, []);
+  100|  
+  101|    const chartData = (lineColor, data_to_draw) => {
+     |   ^
+  102|      const labels = recentData.map((item) => item.time);
+  103|      const data = recentData.map((item) => item[data_to_draw]);
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.unexpected (/home/truc/test/node_modules/@babel/parser/lib/index.js:3253:16)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10952:16)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12356:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17
+... and 9 lines more
+11:25:08 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:25:09 AM [vite] warning: This assignment will throw because "count" is a constant
+91 |      const interval = setInterval(() => {
+92 |        setCurrentTime(new Date().toLocaleTimeString());
+93 |        count++;
+   |        ^
+94 |      }, 1000);
+95 |      if (count == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:25:15 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:25:16 AM [vite] warning: This assignment will throw because "count" is a constant
+91 |      const interval = setInterval(() => {
+92 |        setCurrentTime(new Date().toLocaleTimeString());
+93 |        count++;
+   |        ^
+94 |      }, 1000);
+95 |      if (count == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:25:25 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:25:26 AM [vite] warning: This assignment will throw because "count" is a constant
+89 |      const interval = setInterval(() => {
+90 |        setCurrentTime(new Date().toLocaleTimeString());
+91 |        count++;
+   |        ^
+92 |      }, 1000);
+93 |      if (count == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:26:13 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:26:14 AM [vite] warning: This assignment will throw because "count" is a constant
+89 |      const interval = setInterval(() => {
+90 |        setCurrentTime(new Date().toLocaleTimeString());
+91 |        count++;
+   |        ^
+92 |      }, 1000);
+93 |      if (count == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:26:14 AM [vite] warning: This assignment will throw because "count" is a constant
+92 |      }, 1000);
+93 |      if (count == GetDataTime) {
+94 |        count = 0;
+   |        ^
+95 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+96 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:26:20 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:26:20 AM [vite] warning: This assignment will throw because "count" is a constant
+89 |      const interval = setInterval(() => {
+90 |        setCurrentTime(new Date().toLocaleTimeString());
+91 |        count = count + 1;
+   |        ^
+92 |      }, 1000);
+93 |      if (count == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:26:20 AM [vite] warning: This assignment will throw because "count" is a constant
+92 |      }, 1000);
+93 |      if (count == GetDataTime) {
+94 |        count = 0;
+   |        ^
+95 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+96 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:26:43 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:26:54 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:26:55 AM [vite] warning: This assignment will throw because "countTime" is a constant
+89 |      const interval = setInterval(() => {
+90 |        setCurrentTime(new Date().toLocaleTimeString());
+91 |        countTime = countTime + 1;
+   |        ^
+92 |      }, 1000);
+93 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:26:55 AM [vite] warning: This assignment will throw because "countTime" is a constant
+92 |      }, 1000);
+93 |      if (countTime == GetDataTime) {
+94 |        countTime = 0;
+   |        ^
+95 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+96 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:27:28 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:27:29 AM [vite] warning: This assignment will throw because "countTime" is a constant
+90 |      const interval = setInterval(() => {
+91 |        setCurrentTime(new Date().toLocaleTimeString());
+92 |        countTime = countTime + 1;
+   |        ^
+93 |      }, 1000);
+94 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:27:29 AM [vite] warning: This assignment will throw because "countTime" is a constant
+93 |      }, 1000);
+94 |      if (countTime == GetDataTime) {
+95 |        countTime = 0;
+   |        ^
+96 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+97 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:27:59 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:28:21 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:28:21 AM [vite] warning: This assignment will throw because "countTime" is a constant
+93 |      }, 1000);
+94 |      if (countTime == GetDataTime) {
+95 |        countTime = 0;
+   |        ^
+96 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+97 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:28:26 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:28:37 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:28:38 AM [vite] warning: This assignment will throw because "countTime" is a constant
+93 |      }, 1000);
+94 |      if (countTime == GetDataTime) {
+95 |        countTime = 0;
+   |        ^
+96 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+97 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:28:43 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:29:20 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:29:23 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:30:32 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:30:32 AM [vite] warning: This assignment will throw because "countTime" is a constant
+91 |      const interval = setInterval(() => {
+92 |        setCurrentTime(new Date().toLocaleTimeString());
+93 |        countTime = countTime + 1;
+   |        ^
+94 |      }, 1000);
+95 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:30:47 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:30:47 AM [vite] warning: This assignment will throw because "countTime" is a constant
+91 |      const interval = setInterval(() => {
+92 |        setCurrentTime(new Date().toLocaleTimeString());
+93 |        countTime = countTime + 1;
+   |        ^
+94 |      }, 1000);
+95 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:30:57 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:30:58 AM [vite] warning: This assignment will throw because "countTime" is a constant
+91 |      const interval = setInterval(() => {
+92 |        setCurrentTime(new Date().toLocaleTimeString());
+93 |        countTime = countTime + 1;
+   |        ^
+94 |      }, 1000);
+95 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:34:43 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:34:44 AM [vite] warning: This assignment will throw because "countTime" is a constant
+92 |      const interval = setInterval(() => {
+93 |        setCurrentTime(new Date().toLocaleTimeString());
+94 |        countTime = countTime + 1;
+   |        ^
+95 |      }, 1000);
+96 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:34:44 AM [vite] warning: This assignment will throw because "countTime" is a constant
+95 |      }, 1000);
+96 |      if (countTime == GetDataTime) {
+97 |        countTime = 0;
+   |        ^
+98 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+99 |        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:35:44 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:35:45 AM [vite] Internal server error: /home/truc/test/src/pages/Home.jsx: Unexpected token (96:4)
+
+  94 |       setCurrentTime(new Date().toLocaleTimeString());
+  95 |       a = a+!
+> 96 |     }, 1000);
+     |     ^
+  97 |     if (countTime == GetDataTime) {
+  98 |       countTime = 0;
+  99 |       console.log("DUOC 5 PHUT ROI DO BE PI");
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Home.jsx:96:4
+  97 |      if (countTime == GetDataTime) {
+  98 |        countTime = 0;
+  99 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+     |                              ^
+  100|        const ciupezoi = setInterval(() => {
+  101|          loadData();
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.unexpected (/home/truc/test/node_modules/@babel/parser/lib/index.js:3253:16)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10952:16)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10512:28)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/home/truc/test/node_modules/@babel/parser/lib/index.js:10469:34)
+      at JSXParserMixin.parseExprOpRightExpr (/home/truc/test/node_modules/@babel/parser/lib/index.js:10464:21)
+      at JSXParserMixin.parseExprOp (/home/truc/test/node_modules/@babel/parser/lib/index.js:10431:27)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10392:17)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10352:25)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12356:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+  
+... and 8 lines more
+11:35:47 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:35:48 AM [vite] warning: This assignment will throw because "a" is a constant
+93 |      const interval = setInterval(() => {
+94 |        setCurrentTime(new Date().toLocaleTimeString());
+95 |        a = a + 1;
+   |        ^
+96 |      }, 1000);
+97 |      if (countTime == GetDataTime) {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:35:48 AM [vite] warning: This assignment will throw because "countTime" is a constant
+96 |      }, 1000);
+97 |      if (countTime == GetDataTime) {
+98 |        countTime = 0;
+   |        ^
+99 |        console.log("DUOC 5 PHUT ROI DO BE PI");
+100|        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:35:59 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:36:00 AM [vite] warning: This assignment will throw because "a" is a constant
+93 |      const interval = setInterval(() => {
+94 |        setCurrentTime(new Date().toLocaleTimeString());
+95 |        a = a + 1;
+   |        ^
+96 |        setCountTime(a);
+97 |      }, 1000);
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:36:00 AM [vite] warning: This assignment will throw because "countTime" is a constant
+97 |      }, 1000);
+98 |      if (countTime == GetDataTime) {
+99 |        countTime = 0;
+   |        ^
+100|        console.log("DUOC 5 PHUT ROI DO BE PI");
+101|        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:36:17 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:36:17 AM [vite] warning: This assignment will throw because "a" is a constant
+93 |      const interval = setInterval(() => {
+94 |        setCurrentTime(new Date().toLocaleTimeString());
+95 |        a = a + 1;
+   |        ^
+96 |        setCountTime(a);
+97 |        console.log(countTime);
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:36:17 AM [vite] warning: This assignment will throw because "countTime" is a constant
+98 |      }, 1000);
+99 |      if (countTime == GetDataTime) {
+100|        countTime = 0;
+   |        ^
+101|        console.log("DUOC 5 PHUT ROI DO BE PI");
+102|        const ciupezoi = setInterval(() => {
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+11:36:20 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:36:21 AM [vite] warning: This assignment will throw because "a" is a constant
+93 |      const interval = setInterval(() => {
+94 |        setCurrentTime(new Date().toLocaleTimeString());
+95 |        a = a + 1;
+   |        ^
+96 |        setCountTime(a);
+97 |        console.log(countTime);
+
+  Plugin: vite:esbuild
+  File: /home/truc/test/src/pages/Home.jsx
+yarn run v1.22.22
+warning package.json: "test" is also the name of a node core module
+warning ../package.json: No license field
+$ vite
+
+  VITE v5.2.13  ready in 393 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://10.148.0.2:5173/
+(node:441450) Warning: An error event has already been emitted on the socket. Please use the destroy method on the socket while handling a 'clientError' event.
+(Use `node --trace-warnings ...` to show where the warning was created)
+3:03:14 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:03:14 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:03:15 PM [vite] Internal server error: Failed to resolve import "./checkToken" from "src/draft.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/draft.jsx:4:18
+  18 |  import { Button } from "@material-tailwind/react";
+  19 |  import React, { useEffect, useState, useRef } from "react";
+  20 |  import axios from "./checkToken";
+     |                     ^
+  21 |  import { Line, Bar } from "react-chartjs-2";
+  22 |  import {
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 5)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+3:03:15 PM [vite] Internal server error: Failed to resolve import "./checkToken" from "src/draft.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/draft.jsx:4:18
+  18 |  import { Button } from "@material-tailwind/react";
+  19 |  import React, { useEffect, useState, useRef } from "react";
+  20 |  import axios from "./checkToken";
+     |                     ^
+  21 |  import { Line, Bar } from "react-chartjs-2";
+  22 |  import {
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 5)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+3:04:48 PM [vite] hmr update /src/App.jsx, /src/index.css
+3:35:18 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:38:11 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:38:17 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:38:31 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:43:11 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:43:29 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:44:39 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:45:07 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:47:47 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:50:08 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:52:24 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:53:11 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:53:29 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:53:54 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:54:33 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:54:33 PM [vite] Internal server error: /home/truc/test/src/draft.jsx: Unexpected token ','. (164:15)
+
+  162 |     //gửi control lên api
+  163 |   };
+> 164 |   console.log(, pumps);
+      |                ^
+  165 |   const formatTime = (ms) => {
+  166 |     const minutes = Math.floor(ms / 60000);
+  167 |     const seconds = Math.floor((ms % 60000) / 1000);
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/draft.jsx:164:15
+  162|      //gửi control lên api
+  163|    };
+  164|    console.log(, pumps);
+     |                 ^
+  165|    const formatTime = (ms) => {
+  166|      const minutes = Math.floor(ms / 60000);
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.parseExprListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:11663:14)
+      at JSXParserMixin.parseCallExpressionArguments (/home/truc/test/node_modules/@babel/parser/lib/index.js:10754:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/truc/test/node_modules/@babel/parser/lib/index.js:10671:29)
+      at JSXParserMixin.parseSubscript (/home/truc/test/node_modules/@babel/parser/lib/index.js:10608:19)
+      at JSXParserMixin.parseSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10581:19)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10572:17)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12356:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      
+... and 8 lines more
+3:54:36 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:55:56 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:56:56 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:57:11 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:57:58 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:58:14 PM [vite] hmr update /src/draft.jsx, /src/index.css
+3:58:34 PM [vite] hmr update /src/draft.jsx, /src/index.css
+4:00:47 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:03:45 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:04:09 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:04:09 PM [vite] Internal server error: /home/truc/test/src/pages/Control.jsx: Unexpected reserved word 'await'. (173:23)
+
+  171 |       const url = `http://34.87.151.244:1506/control/motor/${index + 1}`;
+  172 |       console.log("before send", url);
+> 173 |       const response = await axios.post(
+      |                        ^
+  174 |         url,
+  175 |         {
+  176 |           status: pumps[index],
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Control.jsx:173:23
+  171|        const url = `http://34.87.151.244:1506/control/motor/${index + 1}`;
+  172|        console.log("before send", url);
+  173|        const response = await axios.post(
+     |                         ^
+  174|          url,
+  175|          {
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseTryStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12669:23)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12260:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12313:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBod
+... and 10 lines more
+4:04:28 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:04:28 PM [vite] Internal server error: /home/truc/test/src/pages/Control.jsx: Unexpected reserved word 'await'. (173:31)
+
+  171 |       const url = `http://34.87.151.244:1506/control/motor/${index + 1}`;
+  172 |       console.log("before send", url);
+> 173 |       const response=async() = await axios.post(
+      |                                ^
+  174 |         url,
+  175 |         {
+  176 |           status: pumps[index],
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Control.jsx:173:31
+  171|        const url = `http://34.87.151.244:1506/control/motor/${index + 1}`;
+  172|        console.log("before send", url);
+  173|        const response=async() = await axios.post(
+     |                                 ^
+  174|          url,
+  175|          {
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10352:25)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseTryStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12669:23)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12260:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12313:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.
+... and 10 lines more
+4:04:37 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:04:49 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:05:30 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:05:36 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:06:02 PM [vite] hmr update /src/draft.jsx, /src/index.css
+4:07:04 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:07:37 PM [vite] hmr update /src/draft.jsx, /src/index.css
+4:07:53 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:07:53 PM [vite] Internal server error: /home/truc/test/src/pages/Control.jsx: Missing semicolon. (169:7)
+
+  167 |     console.log("after", pumps);
+  168 |
+> 169 |     gửi control lên api
+      |        ^
+  170 |     try {
+  171 |       const url = `http://34.87.151.244:1506/control/motor/${Flag + 1}`;
+  172 |       console.log("before send", url);
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Control.jsx:169:7
+  167|      console.log("after", pumps);
+  168|  
+  169|      gửi control lên api
+     |         ^
+  170|      try {
+  171|        const url = `http://34.87.151.244:1506/control/motor/${Flag + 1}`;
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.semicolon (/home/truc/test/node_modules/@babel/parser/lib/index.js:3554:10)
+      at JSXParserMixin.parseExpressionStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12749:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12360:19)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12313:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseModuleItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12200:17)
+      at JSXParserMixin.parseBlockOrModuleBlo
+... and 9 lines more
+4:07:58 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:08:07 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:09:05 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:09:31 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:09:31 PM [vite] Internal server error: /home/truc/test/src/pages/Control.jsx: Unexpected reserved word 'await'. (174:8)
+
+  172 |       console.log("before send", url);
+  173 |       const response = 
+> 174 |         await axios.post(
+      |         ^
+  175 |           url,
+  176 |           {
+  177 |             status: pumps[Flag],
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Control.jsx:174:8
+  172|        console.log("before send", url);
+  173|        const response = 
+  174|          await axios.post(
+     |          ^
+  175|            url,
+  176|            {
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseTryStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12669:23)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12260:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12313:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/l
+... and 9 lines more
+4:09:36 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:10:11 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:10:12 PM [vite] Internal server error: /home/truc/test/src/pages/Control.jsx: Unexpected reserved word 'await'. (174:8)
+
+  172 |       console.log("before send", url);
+  173 |       const response = 
+> 174 |         await axios.post(
+      |         ^
+  175 |           url,
+  176 |           {
+  177 |             status: pumps[Flag],
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Control.jsx:174:8
+  172|        console.log("before send", url);
+  173|        const response = 
+  174|          await axios.post(
+     |          ^
+  175|            url,
+  176|            {
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseTryStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12669:23)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12260:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12313:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/truc/test/node_modules/@babel/parser/lib/index.js:12213:17)
+      at JSXParserMixin.parseIfStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12591:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12252:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/l
+... and 9 lines more
+4:11:22 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:11:33 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+4:11:39 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:34:26 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:15:02 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:15:18 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:15:18 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+11:35:52 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:36:43 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:37:09 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:42:08 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:45:03 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:22:22 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:22:36 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:33:00 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:33:01 AM [vite] Internal server error: Failed to resolve import "./checkToken" from "src/draft.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/draft.jsx:4:18
+  18 |  import { Button } from "@material-tailwind/react";
+  19 |  import React, { useEffect, useState, useRef } from "react";
+  20 |  import axios from "./checkToken";
+     |                     ^
+  21 |  import { Line, Bar } from "react-chartjs-2";
+  22 |  import {
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 5)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+      at async viteTransformMiddleware (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:64920:32)
+9:33:14 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:34:22 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:34:48 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:34:59 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:35:49 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:37:18 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:37:30 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:43:13 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:44:14 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:45:51 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:46:06 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:47:13 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:47:46 AM [vite] hmr update /src/draft.jsx, /src/index.css
+9:48:17 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:42:42 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:42:50 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:43:44 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:51:37 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:51:57 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:52:30 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:52:30 AM [vite] Internal server error: /home/truc/test/src/pages/Control.jsx: Unexpected token, expected "}" (549:14)
+
+  547 |                 </div>
+  548 |               </div>
+> 549 |             ) : (
+      |               ^
+  550 |               <div className="p-4 h-5/6 w-full  ">
+  551 |                 <div className=" h-full w-full">
+  552 |                   <div class="flex flex-col gap-3">
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/pages/Control.jsx:549:14
+  547|                  </div>
+  548|                </div>
+  549|              ) : (
+     |                ^
+  550|                <div className="p-4 h-5/6 w-full  ">
+  551|                  <div className=" h-full w-full">
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.unexpected (/home/truc/test/node_modules/@babel/parser/lib/index.js:3253:16)
+      at JSXParserMixin.expect (/home/truc/test/node_modules/@babel/parser/lib/index.js:3557:28)
+      at JSXParserMixin.jsxParseExpressionContainer (/home/truc/test/node_modules/@babel/parser/lib/index.js:6654:10)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6728:36)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6715:32)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6715:32)
+      at JSXParserMixin.jsxParseElementAt (/home/truc/test/node_modules/@babel/parser/lib/index.js:6715:32)
+      at JSXParserMixin.jsxParseElement (/home/truc/test/node_modules/@babel/parser/lib/index.js:6766:17)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6776:19)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11920:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11177:28)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at JSXParserMixin.parseExpressionBase (/home/truc/test/node_modules/@babel/parser/lib/index.js:10280:23)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10276:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:10276:17)
+      at JSXParserMixin.parseReturnStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12603:28)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12254:21)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/te
+... and 9 lines more
+10:52:57 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:54:22 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:54:40 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:55:04 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:56:40 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:56:45 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:57:23 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:57:56 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:58:41 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:59:31 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+10:59:51 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:04:16 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:04:27 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:49:03 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+11:49:33 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:00:51 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:00:54 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:01:17 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:01:38 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:01:50 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:02:00 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:03:00 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:03:03 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:03:16 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+12:03:55 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:05:25 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:05:54 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:06:02 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:07:31 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:07:50 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:09:25 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:09:40 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:11:22 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:12:33 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:14:34 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:14:59 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+12:15:34 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:11:55 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:12:41 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:15:04 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:25:41 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:25:49 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:26:01 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:26:46 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:27:10 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:27:18 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+1:31:03 PM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+3:32:04 PM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:16:34 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:16:56 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:17:33 AM [vite] hmr update /src/pages/Control.jsx, /src/index.css
+9:19:48 AM [vite] hmr update /src/pages/Login.jsx, /src/index.css
+9:21:35 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+9:22:19 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+9:23:47 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+9:23:54 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+9:26:27 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+9:26:42 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+9:27:08 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+9:29:04 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+9:30:35 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+9:31:25 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+9:31:25 AM [vite] Internal server error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/Layout.jsx:8:24
+  23 |  import { Link, Outlet, useLocation } from "react-router-dom";
+  24 |  import axios from "axios";
+  25 |  import * as Thresh from "./include/DefaultData";
+     |                           ^
+  26 |  const Layout = () => {
+  27 |    _s();
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 16)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+      at async viteTransformMiddleware (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:64920:32)
+9:32:27 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:32:27 AM [vite] Internal server error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/Layout.jsx:8:24
+  23 |  import { Link, Outlet, useLocation } from "react-router-dom";
+  24 |  import axios from "axios";
+  25 |  import * as Thresh from "./include/DefaultData";
+     |                           ^
+  26 |  const Layout = () => {
+  27 |    _s();
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 16)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+9:32:27 AM [vite] Pre-transform error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+9:33:57 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:33:58 AM [vite] Internal server error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/Layout.jsx:8:24
+  23 |  import { Link, Outlet, useLocation } from "react-router-dom";
+  24 |  import axios from "axios";
+  25 |  import * as Thresh from "./include/DefaultData";
+     |                           ^
+  26 |  const Layout = () => {
+  27 |    _s();
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 16)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+9:33:58 AM [vite] Pre-transform error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+9:34:48 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:34:48 AM [vite] Internal server error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/Layout.jsx:8:24
+  23 |  import { Link, Outlet, useLocation } from "react-router-dom";
+  24 |  import axios from "axios";
+  25 |  import * as Thresh from "./include/DefaultData";
+     |                           ^
+  26 |  const Layout = () => {
+  27 |    _s();
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 16)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+9:34:48 AM [vite] Pre-transform error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+9:35:37 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+9:35:37 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:35:38 AM [vite] Internal server error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/truc/test/src/Layout.jsx:8:24
+  23 |  import { Link, Outlet, useLocation } from "react-router-dom";
+  24 |  import axios from "axios";
+  25 |  import * as Thresh from "./include/DefaultData";
+     |                           ^
+  26 |  const Layout = () => {
+  27 |    _s();
+      at formatError (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52009:46)
+      at TransformContext.error (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52003:19)
+      at normalizeUrl (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67306:33)
+      at async file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67461:47
+      at async Promise.all (index 16)
+      at async TransformContext.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:67382:13)
+      at async Object.transform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:52318:30)
+      at async loadAndTransform (file:///home/truc/test/node_modules/vite/dist/node/chunks/dep-DEPSZ3SS.js:55073:29)
+9:35:38 AM [vite] Pre-transform error: Failed to resolve import "./include/DefaultData" from "src/Layout.jsx". Does the file exist?
+9:36:35 AM [vite] hmr update /src/App.jsx, /src/index.css
+9:56:39 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+9:57:10 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:01:19 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:01:19 AM [vite] Internal server error: /home/truc/test/src/Layout.jsx: Unexpected reserved word 'await'. (99:17)
+
+   97 |
+   98 | // get data sensor 
+>  99 | const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+      |                  ^
+  100 |   headers: {
+  101 |     Authorization: access_token,
+  102 |     accept: "application/json",
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/Layout.jsx:99:17
+  99 |  const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+  100|    headers: {
+  101|      Authorization: access_token,
+     |                             ^
+  102|      accept: "application/json",
+  103|      "Content-Type": "application/x-www-form-urlencoded",
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/tr
+... and 9 lines more
+10:04:15 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:04:15 AM [vite] Internal server error: /home/truc/test/src/Layout.jsx: Unexpected reserved word 'await'. (99:17)
+
+   97 |
+   98 | // get data sensor 
+>  99 | const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+      |                  ^
+  100 |   headers: {
+  101 |     Authorization: access_token,
+  102 |     accept: "application/json",
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/Layout.jsx:99:17
+  99 |  const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+  100|    headers: {
+  101|      Authorization: access_token,
+     |                             ^
+  102|      accept: "application/json",
+  103|      "Content-Type": "application/x-www-form-urlencoded",
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/tr
+... and 9 lines more
+10:04:17 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:04:17 AM [vite] Internal server error: /home/truc/test/src/Layout.jsx: Unexpected reserved word 'await'. (99:17)
+
+   97 |
+   98 | // get data sensor 
+>  99 | const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+      |                  ^
+  100 |   headers: {
+  101 |     Authorization: access_token,
+  102 |     accept: "application/json",
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/Layout.jsx:99:17
+  99 |  const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+  100|    headers: {
+  101|      Authorization: access_token,
+     |                             ^
+  102|      accept: "application/json",
+  103|      "Content-Type": "application/x-www-form-urlencoded",
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/tr
+... and 9 lines more
+10:07:13 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:07:13 AM [vite] Internal server error: /home/truc/test/src/Layout.jsx: Unexpected reserved word 'await'. (99:17)
+
+   97 |
+   98 | // get data sensor 
+>  99 | const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+      |                  ^
+  100 |   headers: {
+  101 |     Authorization: access_token,
+  102 |     accept: "application/json",
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/Layout.jsx:99:17
+  99 |  const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+  100|    headers: {
+  101|      Authorization: access_token,
+     |                             ^
+  102|      accept: "application/json",
+  103|      "Content-Type": "application/x-www-form-urlencoded",
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/tr
+... and 9 lines more
+10:07:30 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:07:30 AM [vite] Internal server error: /home/truc/test/src/Layout.jsx: Unexpected reserved word 'await'. (99:17)
+
+   97 |
+   98 | // get data sensor 
+>  99 | const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+      |                  ^
+  100 |   headers: {
+  101 |     Authorization: access_token,
+  102 |     accept: "application/json",
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/Layout.jsx:99:17
+  99 |  const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+  100|    headers: {
+  101|      Authorization: access_token,
+     |                             ^
+  102|      accept: "application/json",
+  103|      "Content-Type": "application/x-www-form-urlencoded",
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/tr
+... and 9 lines more
+10:07:37 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:07:37 AM [vite] Internal server error: /home/truc/test/src/Layout.jsx: Unexpected reserved word 'await'. (99:17)
+
+   97 |
+   98 | // get data sensor 
+>  99 | const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+      |                  ^
+  100 |   headers: {
+  101 |     Authorization: access_token,
+  102 |     accept: "application/json",
+  Plugin: vite:react-babel
+  File: /home/truc/test/src/Layout.jsx:99:17
+  99 |  const response = await axios.get("http://34.87.151.244:1506/api/data/0", {
+  100|    headers: {
+  101|      Authorization: access_token,
+     |                             ^
+  102|      accept: "application/json",
+  103|      "Content-Type": "application/x-www-form-urlencoded",
+      at constructor (/home/truc/test/node_modules/@babel/parser/lib/index.js:351:19)
+      at JSXParserMixin.raise (/home/truc/test/node_modules/@babel/parser/lib/index.js:3233:19)
+      at JSXParserMixin.checkReservedWord (/home/truc/test/node_modules/@babel/parser/lib/index.js:11731:12)
+      at JSXParserMixin.parseIdentifierName (/home/truc/test/node_modules/@babel/parser/lib/index.js:11711:12)
+      at JSXParserMixin.parseIdentifier (/home/truc/test/node_modules/@babel/parser/lib/index.js:11686:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10926:27)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/truc/test/node_modules/@babel/parser/lib/index.js:12848:91)
+      at JSXParserMixin.parseVarStatement (/home/truc/test/node_modules/@babel/parser/lib/index.js:12694:10)
+      at JSXParserMixin.parseStatementContent (/home/truc/test/node_modules/@babel/parser/lib/index.js:12306:23)
+      at JSXParserMixin.parseStatementLike (/home/truc/test/node_modules/@babel/parser/lib/index.js:12223:17)
+      at JSXParserMixin.parseStatementListItem (/home/truc/test/node_modules/@babel/parser/lib/index.js:12203:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12780:61)
+      at JSXParserMixin.parseBlockBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:12773:10)
+      at JSXParserMixin.parseBlock (/home/truc/test/node_modules/@babel/parser/lib/index.js:12761:10)
+      at JSXParserMixin.parseFunctionBody (/home/truc/test/node_modules/@babel/parser/lib/index.js:11600:24)
+      at JSXParserMixin.parseArrowExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11575:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/truc/test/node_modules/@babel/parser/lib/index.js:11189:12)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:10835:23)
+      at JSXParserMixin.parseExprAtom (/home/truc/test/node_modules/@babel/parser/lib/index.js:6781:20)
+      at JSXParserMixin.parseExprSubscripts (/home/truc/test/node_modules/@babel/parser/lib/index.js:10568:23)
+      at JSXParserMixin.parseUpdate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10551:21)
+      at JSXParserMixin.parseMaybeUnary (/home/truc/test/node_modules/@babel/parser/lib/index.js:10529:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/truc/test/node_modules/@babel/parser/lib/index.js:10383:61)
+      at JSXParserMixin.parseExprOps (/home/truc/test/node_modules/@babel/parser/lib/index.js:10388:23)
+      at JSXParserMixin.parseMaybeConditional (/home/truc/test/node_modules/@babel/parser/lib/index.js:10365:23)
+      at JSXParserMixin.parseMaybeAssign (/home/truc/test/node_modules/@babel/parser/lib/index.js:10326:21)
+      at /home/truc/test/node_modules/@babel/parser/lib/index.js:10296:39
+      at JSXParserMixin.allowInAnd (/home/truc/test/node_modules/@babel/parser/lib/index.js:11915:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/truc/test/node_modules/@babel/parser/lib/index.js:10296:17)
+      at JSXParserMixin.parseVar (/home/tr
+... and 9 lines more
+10:08:06 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:08:58 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:09:09 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:09:49 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:10:30 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:11:57 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:12:14 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:12:16 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:12:31 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+10:13:05 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:13:19 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:14:16 AM [vite] hmr update /src/Layout.jsx, /src/index.css
+10:14:50 AM [vite] hmr update /src/pages/Home.jsx, /src/index.css
+Killed
